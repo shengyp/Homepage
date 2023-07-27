@@ -23,4 +23,8 @@
     University, Hong Kong RGC, Tencent Technology Limited, etc.
   </font>
   <div style="height: 50px;"></div>
+
+  <img src="../logo/UESTC_logo.png" style="height: 100px;margin: 10px;" alt="" srcset="">
+  <img src="../logo/unsw_logo.png" style="height: 100px;margin: 10px;" alt="" srcset="">
+  <img src="../logo/cqu_logo.jpeg" style="height: 100px;margin: 10px;" alt="" srcset="">
 </template>
