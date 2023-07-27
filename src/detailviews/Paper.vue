@@ -388,8 +388,12 @@ const newPublicationsList = [
             <ul style="list-style: none; line-height: 18px">
 
                 <div v-for="year in newPublicationsList">
-                    <div style="font-size: 16px;line-height: 21px;">
-                        {{ year.year }}
+                    <div>
+                        <h3>
+                            <p class="year-text">
+                                {{ year.year }}
+                            </p>
+                        </h3>
                     </div>
 
                     <li :key="index" v-for="data in year.data">
@@ -623,5 +627,27 @@ const newPublicationsList = [
 
 .file_link:hover {
     color: #1d5a89;
+}
+
+@font-face {
+    font-family: "playfair display";
+    src: url("/playfair-display.italic.ttf");
+}
+
+.year-text {
+    /* -webkit-text-size-adjust: 100%; */
+    list-style: none;
+    text-align: left;
+    color: #181818;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 160%;
+    font-family: "playfair display", sans-serif;
+    line-height: 1.45;
+    font-style: italic;
 }
 </style>
