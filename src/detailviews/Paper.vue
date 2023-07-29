@@ -12,9 +12,9 @@ const newPublicationsList = [
                     {
                         id: 11,
                         u1: ["Jinze Sun",
-                             "Yongpan Sheng*", 
-                             "Ling Zhan",
-                             "and Lirong He"],
+                            "Yongpan Sheng*",
+                            "Ling Zhan",
+                            "and Lirong He"],
                         year: 2023,
                         bib: "1.bib",
                         pdf: "",
@@ -24,7 +24,7 @@ const newPublicationsList = [
                         text: "",
                         red: ""
                     }
-                    
+
                 ],
                 others: [
 
@@ -57,13 +57,13 @@ const newPublicationsList = [
                     },
                     {
                         id: 11,
-                        u1: ["Hao Zhou", 
-                             "Zekai Chen", 
-                             "Yun Liu",
-                             "Yongpan Sheng", 
-                             "Wenqi Ren",
-                             "and Hailing Xiong"
-                            ],
+                        u1: ["Hao Zhou",
+                            "Zekai Chen",
+                            "Yun Liu",
+                            "Yongpan Sheng",
+                            "Wenqi Ren",
+                            "and Hailing Xiong"
+                        ],
                         year: 2022,
                         bib: "1.bib",
                         abs: "",
@@ -78,9 +78,9 @@ const newPublicationsList = [
                 C: [
                     {
                         id: 10,
-                        u1: ["Yongpan Sheng", 
-                             "and Lirong He"
-                            ],
+                        u1: ["Yongpan Sheng",
+                            "and Lirong He"
+                        ],
                         title: "A Short Survey on Deep Learning-Based Open Relation Extraction: Recent Advances, Resources and Perspective",
                         bib: "1.bib",
                         abs: "",
@@ -142,9 +142,9 @@ const newPublicationsList = [
                 C: [
                     {
                         id: 9,
-                        u1: ["Peng Zhao", 
-                             "Yongpan Sheng", 
-                             "and Xiaohui Zhan*"],
+                        u1: ["Peng Zhao",
+                            "Yongpan Sheng",
+                            "and Xiaohui Zhan*"],
                         title: " An advanced NMF-based approach for single cell data clustering",
                         bib: "1.bib",
                         abs: "",
@@ -168,10 +168,10 @@ const newPublicationsList = [
                 J: [
                     {
                         id: 8,
-                        u1: ["Yongpan Sheng", 
-                             "Lirong He", 
-                             "Jie Shao"
-                            ],
+                        u1: ["Yongpan Sheng",
+                            "Lirong He",
+                            "Jie Shao"
+                        ],
                         title:
                             "A Hybrid Neural Network Model for Hypernym-hyponym Relation Identification",
                         year: 2020,
@@ -183,14 +183,14 @@ const newPublicationsList = [
                     },
                     {
                         id: 7,
-                        u1: ["Guanglin Niu", 
-                             "Bo Li", 
-                             "Yongfei Zhang*", 
-                             "Yongpan Sheng",
-                             "Chuan Shi",
-                             "Jingyang Li",
-                             "and Shiliang Pu"
-                            ],
+                        u1: ["Guanglin Niu",
+                            "Bo Li",
+                            "Yongfei Zhang*",
+                            "Yongpan Sheng",
+                            "Chuan Shi",
+                            "Jingyang Li",
+                            "and Shiliang Pu"
+                        ],
                         title:
                             "Joint Semantics and Data-Driven Path Representation for Knowledge Graph Inference",
                         year: 2022,
@@ -204,11 +204,11 @@ const newPublicationsList = [
                 C: [
                     {
                         id: 8,
-                        u1: ["Jiasheng Zhang", 
-                             "Yongpan Sheng*", 
-                             "Zheng Wang", 
-                             "and Jie Shao"
-                            ],
+                        u1: ["Jiasheng Zhang",
+                            "Yongpan Sheng*",
+                            "Zheng Wang",
+                            "and Jie Shao"
+                        ],
                         bib: "1.bib",
                         abs: "",
                         pdf: "https://link.springer.com/content/pdf/10.1007/978-3-030-60259-8_16.pdf",
@@ -231,7 +231,7 @@ const newPublicationsList = [
                             "面向知识图谱的学习算法研究与应用",
                         text: "知网",
                         red: "<br/> 博士学位论文",
-                    }    
+                    }
                 ],
             }
         ],
@@ -243,11 +243,11 @@ const newPublicationsList = [
                 J: [
                     {
                         id: 6,
-                        u1: ["Yongpan Sheng", 
-                             "Zenglin Xu*", 
-                             "Yafang Wang", 
-                             "Gerard de Melo*"
-                            ],
+                        u1: ["Yongpan Sheng",
+                            "Zenglin Xu*",
+                            "Yafang Wang",
+                            "Gerard de Melo*"
+                        ],
                         title:
                             "Multi-document semantic relation extraction for news analytics",
                         year: 2020,
@@ -259,10 +259,10 @@ const newPublicationsList = [
                     },
                     {
                         id: 5,
-                        u1: ["Yongpan Sheng", 
-                             "Meng Wang*", 
-                             "Tianxing Wu", 
-                             "and Han Xu"],
+                        u1: ["Yongpan Sheng",
+                            "Meng Wang*",
+                            "Tianxing Wu",
+                            "and Han Xu"],
                         year: 2019,
                         bib: "1.bib",
                         abs: "",
@@ -276,9 +276,9 @@ const newPublicationsList = [
                 C: [
                     {
                         id: 7,
-                        u1: ["Yongpan Sheng", 
-                             "Tianxing Wu", 
-                             "and Xin Wang*"],
+                        u1: ["Yongpan Sheng",
+                            "Tianxing Wu",
+                            "and Xin Wang*"],
                         year: 2019,
                         bib: "1.bib",
                         abs: "",
@@ -290,9 +290,9 @@ const newPublicationsList = [
                     },
                     {
                         id: 6,
-                        u1: ["Yongpan Sheng", 
-                             "Haojie Huang"
-                            ],
+                        u1: ["Yongpan Sheng",
+                            "Haojie Huang"
+                        ],
                         year: 2019,
                         bib: "1.bib",
                         abs: "",
@@ -304,9 +304,9 @@ const newPublicationsList = [
                     },
                     {
                         id: 5,
-                        u1: ["Yongpan Sheng", 
-                             "Zenglin Xu*"
-                            ],
+                        u1: ["Yongpan Sheng",
+                            "Zenglin Xu*"
+                        ],
                         year: 2019,
                         bib: "1.bib",
                         abs: "",
@@ -329,10 +329,10 @@ const newPublicationsList = [
                 J: [
                     {
                         id: 4,
-                        u1: ["盛泳潘", 
-                             "吴天星", 
-                             "付雪峰*"
-                            ],
+                        u1: ["盛泳潘",
+                            "吴天星",
+                            "付雪峰*"
+                        ],
                         year: 2020,
                         bib: "1.bib",
                         abs: "",
@@ -343,12 +343,12 @@ const newPublicationsList = [
                     },
                     {
                         id: 3,
-                        u1: ["Lirong He", 
-                             "Bin Liu", 
-                             "Guangxi Li", 
-                             "Yongpan Sheng", 
-                             "Yafang Wang", 
-                             "and Zenglin Xu*"],
+                        u1: ["Lirong He",
+                            "Bin Liu",
+                            "Guangxi Li",
+                            "Yongpan Sheng",
+                            "Yafang Wang",
+                            "and Zenglin Xu*"],
                         year: 2018,
                         bib: "1.bib",
                         abs: "",
@@ -360,11 +360,11 @@ const newPublicationsList = [
                     },
                     {
                         id: 2,
-                        u1: ["Han Xu*", 
-                             "Xiwei Qiu", 
-                             "Yongpan Sheng", 
-                             "Liang Luo", 
-                             "Yanping Xiang*"
+                        u1: ["Han Xu*",
+                            "Xiwei Qiu",
+                            "Yongpan Sheng",
+                            "Liang Luo",
+                            "Yanping Xiang*"
                         ],
                         year: 2018,
                         bib: "1.bib",
@@ -443,10 +443,10 @@ const newPublicationsList = [
                 J: [
                     {
                         id: 1,
-                        u1: ["徐增林", 
-                             "盛泳潘", 
-                             "贺丽荣", 
-                             "王雅芳"
+                        u1: ["徐增林",
+                            "盛泳潘",
+                            "贺丽荣",
+                            "王雅芳"
                         ],
                         title: "知识图谱技术综述",
                         year: 2016,
@@ -553,8 +553,8 @@ const newPublicationsList = [
                                         <span v-if="name == '盛泳潘' ||
                                             name == 'Yongpan Sheng' ||
                                             name == 'Yongpan Sheng*'
-                                            " style="font-weight: bold; margin-right: 0px">{{ name }}</span>
-                                        <span v-else style="margin-right: 0px">{{ name }}</span>
+                                            " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
+                                        <span v-else style="margin-right: 0px" v-html="name"></span>
                                         <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
                                     </span>
                                 </div>
@@ -617,8 +617,8 @@ const newPublicationsList = [
                                         <span v-if="name == '盛泳潘' ||
                                             name == 'Yongpan Sheng' ||
                                             name == 'Yongpan Sheng*'
-                                            " style="font-weight: bold; margin-right: 0px">{{ name }}</span>
-                                        <span v-else style="margin-right: 0px">{{ name }}</span>
+                                            " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
+                                        <span v-else style="margin-right: 0px" v-html="name"></span>
                                         <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
                                     </span>
                                 </div>
@@ -681,8 +681,8 @@ const newPublicationsList = [
                                         <span v-if="name == '盛泳潘' ||
                                             name == 'Yongpan Sheng' ||
                                             name == 'Yongpan Sheng*'
-                                            " style="font-weight: bold; margin-right: 0px">{{ name }}</span>
-                                        <span v-else style="margin-right: 5px">{{ name }}</span>
+                                            " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
+                                        <span v-else style="margin-right: 5px" v-html="name"></span>
                                         <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
                                     </span>
                                 </div>
