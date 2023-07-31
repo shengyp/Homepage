@@ -14,14 +14,15 @@ const newPublicationsList = [
                         u1: ["Jinze Sun",
                             "Yongpan Sheng<sup>#‡</sup>",
                             "Ling Zhan",
-                            "and Lirong He"],
+                            "and Lirong He"
+                            ],
                         year: 2023,
                         bib: "1.bib",
                         pdf: "",
                         abs: "",
                         title:
                             "TemT: A New Temporal Knowledge Graph Completion Method with Transformer Hawkes Process and Random Walk Aggregation Strategy",
-                        text: "",
+                        text: "The 2023 International Conference on Neural Information Processing (ICONIP). Changsha, China, November 20-23, 2023.",
                         red: ""
                     }
 
@@ -526,6 +527,21 @@ const newPublicationsList = [
         <sup>†</sup>学生一作, <sup>*</sup> 共一]
     </font>
 
+    <div  class="item-c">Call for paper: 
+    <br/>
+        <div>
+            <span style="margin-left: 20px">
+                <strong>We are organizing a <a class="speical_issue_file_link" target="_blank" style="text-decoration: none" href="https://www.mdpi.com/journal/entropy/special_issues/82WTZCNLE4">special issue (opens the new window)</a> on Information Network Mining and Applications in the Entropy Journal. Welcome your submission.</strong>
+            </span>
+        </div>
+         <br>
+        <div >
+            <span style="margin-left: 20px">
+                <strong>We are organizing a <a class="speical_issue_file_link" target="_blank" style="text-decoration: none" href="https://www.mdpi.com/journal/applsci/special_issues/R9I1DGV3A2">special issue (opens the new window)</a> on New Advances for Open-Domain Information Mining in Theories and Applications in the Applied Sciences-Basel Journal. Welcome your submission.</strong>
+            </span>
+        </div>
+    </div>
+
     </p>
     <ul style="list-style: none;">
         <div v-for="year in newPublicationsList" style="all: unset;">
@@ -739,6 +755,22 @@ const newPublicationsList = [
 }
 
 .file_link {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    list-style: decimal;
+    list-style-position: outside;
+    background-color: #dad0ab;
+    border-radius: 3px;
+    color: #fcfcfc;
+    padding: 2px 5px;
+    font-size: smaller;
+    text-decoration: none;
+}
+.speical_issue_file_link {
     -webkit-text-size-adjust: 100%;
     line-height: 1.5;
     font-weight: 400;
