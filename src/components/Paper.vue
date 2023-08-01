@@ -529,12 +529,12 @@ const newPublicationsList = [
 
 
     <div style="margin: 10px 20px 10px 10px;border: 1px solid black;padding: 1px;">
-        <span style="color: red;">
-            Call for paper:
+        <span style="color: red; font-size: 20px; border: 2px">
+            Call for paper：
         </span>
         <br />
         <div>
-            <span style="margin-left: 20px">
+            <span style="margin: 0px 25px 10px 20px">
                 <strong>We are organizing a <a class="speical_issue_file_link_1" target="_blank"
                         style="text-decoration: none"
                         href="https://www.mdpi.com/journal/entropy/special_issues/82WTZCNLE4">special issue (opens the new
@@ -542,7 +542,6 @@ const newPublicationsList = [
                     submission.</strong>
             </span>
         </div>
-        <br>
         <div>
             <span style="margin-left: 20px">
                 <strong>We are organizing a <a class="speical_issue_file_link_1" target="_blank"
