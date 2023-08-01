@@ -15,7 +15,7 @@ const newPublicationsList = [
                             "Yongpan Sheng<sup>#‡</sup>",
                             "Ling Zhan",
                             "and Lirong He"
-                            ],
+                        ],
                         year: 2023,
                         bib: "1.bib",
                         pdf: "",
@@ -527,17 +527,29 @@ const newPublicationsList = [
         <sup>†</sup>学生一作, <sup>*</sup> 共一]
     </font>
 
-    <div  class="item-c">Call for paper: 
-    <br/>
+
+    <div style="margin: 10px 20px 10px 10px;border: 1px solid black;padding: 1px;">
+        <span style="color: red;">
+            Call for paper:
+        </span>
+        <br />
         <div>
             <span style="margin-left: 20px">
-                <strong>We are organizing a <a class="speical_issue_file_link" target="_blank" style="text-decoration: none" href="https://www.mdpi.com/journal/entropy/special_issues/82WTZCNLE4">special issue (opens the new window)</a> on Information Network Mining and Applications in the Entropy Journal. Welcome your submission.</strong>
+                <strong>We are organizing a <a class="speical_issue_file_link_1" target="_blank"
+                        style="text-decoration: none"
+                        href="https://www.mdpi.com/journal/entropy/special_issues/82WTZCNLE4">special issue (opens the new
+                        window)</a> on Information Network Mining and Applications in the Entropy Journal. Welcome your
+                    submission.</strong>
             </span>
         </div>
-         <br>
-        <div >
+        <br>
+        <div>
             <span style="margin-left: 20px">
-                <strong>We are organizing a <a class="speical_issue_file_link" target="_blank" style="text-decoration: none" href="https://www.mdpi.com/journal/applsci/special_issues/R9I1DGV3A2">special issue (opens the new window)</a> on New Advances for Open-Domain Information Mining in Theories and Applications in the Applied Sciences-Basel Journal. Welcome your submission.</strong>
+                <strong>We are organizing a <a class="speical_issue_file_link_1" target="_blank"
+                        style="text-decoration: none"
+                        href="https://www.mdpi.com/journal/applsci/special_issues/R9I1DGV3A2">special issue (opens the new
+                        window)</a> on New Advances for Open-Domain Information Mining in Theories and Applications in the
+                    Applied Sciences-Basel Journal. Welcome your submission.</strong>
             </span>
         </div>
     </div>
@@ -770,6 +782,7 @@ const newPublicationsList = [
     font-size: smaller;
     text-decoration: none;
 }
+
 .speical_issue_file_link {
     -webkit-text-size-adjust: 100%;
     line-height: 1.5;
@@ -786,6 +799,24 @@ const newPublicationsList = [
     font-size: smaller;
     text-decoration: none;
 }
+
+.speical_issue_file_link_1 {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    list-style: decimal;
+    list-style-position: outside;
+    background-color: #51c5f4;
+    border-radius: 3px;
+    color: #fcfcfc;
+    padding: 2px 5px;
+    font-size: smaller;
+    text-decoration: none;
+}
+
 
 .file_link:hover {
     color: #1d5a89;
