@@ -513,11 +513,11 @@ const newPublicationsList = [
         </font>
 
         <div style="margin-right: 20px;">
-            <a href="/paper">
+            <router-link to="/paper">
                 <button class="more-button">
                     查看更多
                 </button>
-            </a>
+            </router-link>
         </div>
     </div>
 
