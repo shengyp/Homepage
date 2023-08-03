@@ -53,7 +53,8 @@ const projects = [
                 <font size="5" face="Times New Roman"><strong><a name="pub">精选项目</a></strong></font>
             </p>
             <div style="margin-right: 20px;">
-                <a href="/project">
+                
+                <router-link to="/project">
                     <button class="more-button">
                         查看更多
                     </button>
