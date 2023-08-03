@@ -120,11 +120,11 @@ const Competition = ref([{
                 <font size="5" face="Times New Roman"><strong><a name="pub">科研指导 && 竞赛指导</a></strong></font>
             </p>
             <div style="margin-right: 20px;">
-                <a href="/detailcompetition">
+                <router-link to="/detailcompetition">
                     <button class="more-button">
                         查看更多
                     </button>
-                </a>
+                </router-link>
             </div>
         </div>
 
