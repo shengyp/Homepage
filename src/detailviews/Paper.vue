@@ -550,9 +550,8 @@ const newPublicationsList = [
                                 </div>
                                 <div>
                                     <span :key="index" v-for="(name, index) in item.u1">
-                                        <span v-if="name == '盛泳潘' ||
-                                            name == 'Yongpan Sheng' ||
-                                            name == 'Yongpan Sheng*'
+                                        <span v-if="name.includes('盛泳潘') ||
+                                    name.includes('Yongpan Sheng')
                                             " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
                                         <span v-else style="margin-right: 0px" v-html="name"></span>
                                         <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
@@ -614,9 +613,8 @@ const newPublicationsList = [
                                 </div>
                                 <div>
                                     <span :key="index" v-for="(name, index) in item.u1">
-                                        <span v-if="name == '盛泳潘' ||
-                                            name == 'Yongpan Sheng' ||
-                                            name == 'Yongpan Sheng*'
+                                        <span v-if="name.includes('盛泳潘') ||
+                                    name.includes('Yongpan Sheng')
                                             " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
                                         <span v-else style="margin-right: 0px" v-html="name"></span>
                                         <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
@@ -678,9 +676,8 @@ const newPublicationsList = [
                                 </div>
                                 <div>
                                     <span :key="index" v-for="(name, index) in item.u1">
-                                        <span v-if="name == '盛泳潘' ||
-                                            name == 'Yongpan Sheng' ||
-                                            name == 'Yongpan Sheng*'
+                                        <span v-if="name.includes('盛泳潘') ||
+                                    name.includes('Yongpan Sheng')
                                             " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
                                         <span v-else style="margin-right: 5px" v-html="name"></span>
                                         <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
