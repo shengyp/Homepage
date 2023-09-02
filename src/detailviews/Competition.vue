@@ -140,7 +140,7 @@ const Competition = ref([{
                     <span style="font-weight: bold">2022级研究生</span>
                 </div>
                 <div>
-                    <span style="font-weight: bold">孙今泽</span>（ *1）
+                    <span style="font-weight: bold">孙今泽</span>（ ICONIP*1）
                 </div>
                 <div>
                     <span style="font-weight: bold">张现明</span>（ *1）

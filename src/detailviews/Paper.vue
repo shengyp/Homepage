@@ -7,21 +7,87 @@ const newPublicationsList = [
         data: [
             {
                 J: [
-                ],
-                C: [
                     {
-                        id: 11,
+                        id: 14,
                         u1: ["Jinze Sun",
-                            "Yongpan Sheng*",
-                            "Ling Zhan",
-                            "and Lirong He"],
+                            "Yongpan Sheng<sup>#‡</sup>",
+                            "Lirong He",
+                            "and Ling Zhan"
+                        ],
                         year: 2023,
                         bib: "1.bib",
                         pdf: "",
                         abs: "",
                         title:
-                            "TemT: A New Temporal Knowledge Graph Completion Method with Transformer Hawkes Process and Random Walk Aggregation Strategy",
+                            "Incorporating Transformer Hawkes Process and Temporal Logic Rules in Representation Learning for Temporal Knowledge Graph Reasoning",
                         text: "",
+                        red: ""
+                    },
+                    {
+                        id: 13,
+                        u1: ["Yongpan Sheng",
+                            "Hao Wang",
+                            "and Yixiang Fang"
+                        ],
+                        year: 2023,
+                        bib: "1.bib",
+                        pdf: "",
+                        abs: "",
+                        title:
+                            "Special Issue of Information Network Mining and Applications",
+                        text: "",
+                        red: ""
+                    },
+                    
+                ],
+                C: [
+                    {
+                        id: 13,
+                        u1: ["Jinze Sun",
+                            "Yongpan Sheng<sup>#‡</sup>",
+                            "Lirong He",
+                            "Ling Zhan",
+                            "and Kaiwen Wei"
+                        ],
+                        year: 2023,
+                        bib: "1.bib",
+                        pdf: "",
+                        abs: "",
+                        title:
+                            "Bridging the Gap between Transformer Hawkes Process and Temporal Rule-Guided Learning for Temporal Knowledge Graph Reasoning",
+                        text: "",
+                        red: ""
+                    },
+                    {
+                        id: 12,
+                        u1: ["Xiaoshi Wang",
+                            "Yongpan Sheng<sup>#‡</sup>",
+                            "Zhuping Ding",
+                            "and Lirong He",
+                        ],
+                        year: 2023,
+                        bib: "1.bib",
+                        pdf: "",
+                        abs: "",
+                        title:
+                            "An Adaptive Clustering Centered-Oriented Projection Method for Hypernym-hyponym Relation Identification",
+                        text: "",
+                        red: ""
+                    },
+                    {
+                        id: 11,
+                        u1: ["Jinze Sun",
+                            "Yongpan Sheng<sup>#‡</sup>",
+                            "Ling Zhan",
+                            "and Lirong He"
+                        ],
+                        year: 2023,
+                        bib: "1.bib",
+                        pdf: "",
+                        abs: "",
+                        title:
+                            "TemT: A New Temporal Knowledge Graph Reasoning Model with Transformer Hawkes Process and Graph-Based Random Walk Aggregation Strategy",
+                        text: "The 2023 International Conference on Neural Information Processing (ICONIP-23). Changsha, China, November 20-23, 2023.",
                         red: ""
                     }
 
@@ -41,7 +107,7 @@ const newPublicationsList = [
                         id: 12,
                         u1: [
                             "Lirong He",
-                            "Yongpan Sheng*",
+                            "Yongpan Sheng<sup>#</sup>",
                             "Hekai Zhang",
                             "Meng Chen",
                             "and Jiatian Pi",
@@ -107,7 +173,7 @@ const newPublicationsList = [
                             "Jiasheng Zhang",
                             "Shuang Liang",
                             "Yongpan Sheng",
-                            "Jie Shao*"
+                            "Jie Shao<sup>#</sup>"
                         ],
                         bib: "1.bib",
                         abs: "",
@@ -124,7 +190,7 @@ const newPublicationsList = [
                             "Meng Chen",
                             "Jiaxin Hou",
                             "Yongpan Sheng",
-                            "Yingbo Wu*",
+                            "Yingbo Wu<sup>#</sup>",
                             "Sen Wang",
                             "Jianyuan Lu",
                             "and Qilin Fan",
@@ -144,7 +210,7 @@ const newPublicationsList = [
                         id: 9,
                         u1: ["Peng Zhao",
                             "Yongpan Sheng",
-                            "and Xiaohui Zhan*"],
+                            "and Xiaohui Zhan<sup>#</sup>"],
                         title: " An advanced NMF-based approach for single cell data clustering",
                         bib: "1.bib",
                         abs: "",
@@ -185,7 +251,7 @@ const newPublicationsList = [
                         id: 7,
                         u1: ["Guanglin Niu",
                             "Bo Li",
-                            "Yongfei Zhang*",
+                            "Yongfei Zhang<sup>#</sup>",
                             "Yongpan Sheng",
                             "Chuan Shi",
                             "Jingyang Li",
@@ -198,14 +264,14 @@ const newPublicationsList = [
                         bib: "1.bib",
                         pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0925231222001515",
                         text: "Neurocomputing, 2022, 483: 249-261.",
-                        red: "<br/> SCI，中科院二区",
+                        red: "<br/> SCI, 中科院二区",
                     }
                 ],
                 C: [
                     {
                         id: 8,
                         u1: ["Jiasheng Zhang",
-                            "Yongpan Sheng*",
+                            "Yongpan Sheng<sup>#</sup>",
                             "Zheng Wang",
                             "and Jie Shao"
                         ],
@@ -219,7 +285,7 @@ const newPublicationsList = [
                         red: "",
                     }
                 ],
-                others: [
+                D: [
                     {
                         id: 1,
                         u1: ["盛泳潘"],
@@ -233,6 +299,8 @@ const newPublicationsList = [
                         red: "<br/> 博士学位论文",
                     }
                 ],
+                others: [
+                ],
             }
         ],
     },
@@ -244,7 +312,7 @@ const newPublicationsList = [
                     {
                         id: 6,
                         u1: ["Yongpan Sheng",
-                            "Zenglin Xu*",
+                            "Zenglin Xu<sup>#</sup>",
                             "Yafang Wang",
                             "Gerard de Melo*"
                         ],
@@ -255,12 +323,12 @@ const newPublicationsList = [
                         bib: "1.bib",
                         pdf: "https://link.springer.com/content/pdf/10.1007/s11280-020-00790-2.pdf",
                         text: "World Wide Web-Internet and Web Information Systems (WWW Journal), 2020, 23: 2043-2077.",
-                        red: "<br/> SCI，CCF-B类期刊",
+                        red: "<br/> SCI, CCF-B类期刊",
                     },
                     {
                         id: 5,
                         u1: ["Yongpan Sheng",
-                            "Meng Wang*",
+                            "Meng Wang<sup>#</sup>",
                             "Tianxing Wu",
                             "and Han Xu"],
                         year: 2019,
@@ -270,7 +338,7 @@ const newPublicationsList = [
                         title:
                             "Adaptive Local Learning Regularized Nonnegative Matrix Factorization",
                         text: "Applied Intelligence, 2019, 49: 2051-2168.",
-                        red: "<br/> SCI, JCR Q2",
+                        red: "<br/> SCI, 中科院二区, JCR Q2",
                     }
                 ],
                 C: [
@@ -278,14 +346,14 @@ const newPublicationsList = [
                         id: 7,
                         u1: ["Yongpan Sheng",
                             "Tianxing Wu",
-                            "and Xin Wang*"],
+                            "and Xin Wang<sup>#</sup>"],
                         year: 2019,
                         bib: "1.bib",
                         abs: "",
                         pdf: "https://link.springer.com/content/pdf/10.1007/978-3-030-41407-8_1.pdf",
                         title:
                             "Incorporating Term Definitions for Taxonomic Relation Identification",
-                        text: "Proceedings of the 9th Joint International Semantic Technology Conference (JIST), 2019: 1-17.",
+                        text: "Proceedings of the 9th Joint International Semantic Technology Conference (JIST-19), 2019: 1-17.",
                         red: "<br />EI检索，入选封面论文",
                     },
                     {
@@ -299,13 +367,13 @@ const newPublicationsList = [
                         pdf: "https://conference.cipsc.org.cn/smp2019/accepted-papers.html",
                         title:
                             "A framework for graph-based multi-document relation exploration: a case study on the news datasets",
-                        text: "Proceedings of the 8th National Conference on Social Media Processing (SMP), 2019, Shenzhen, China.",
+                        text: "Proceedings of the 8th National Conference on Social Media Processing (SMP-19), 2019, Shenzhen, China.",
                         red: "",
                     },
                     {
                         id: 5,
                         u1: ["Yongpan Sheng",
-                            "Zenglin Xu*"
+                            "Zenglin Xu<sup>#</sup>"
                         ],
                         year: 2019,
                         bib: "1.bib",
@@ -313,7 +381,7 @@ const newPublicationsList = [
                         pdf: "https://link.springer.com/content/pdf/10.1007/978-3-030-26072-9_30.pdf",
                         title:
                             "Coherence and Salience-Based Multi-Document Relationship Mining",
-                        text: "Proceedings of the 3rd Asia Pacific Web and Web-Age Information Management Joint Conference on Web and Big Data (APWeb-WAIM), 2019: 414-430.",
+                        text: "Proceedings of the 3rd Asia Pacific Web and Web-Age Information Management Joint Conference on Web and Big Data (APWeb-WAIM-19), 2019: 414-430.",
                         red: "",
                     }
                 ],
@@ -331,7 +399,7 @@ const newPublicationsList = [
                         id: 4,
                         u1: ["盛泳潘",
                             "吴天星",
-                            "付雪峰*"
+                            "付雪峰<sup>#</sup>"
                         ],
                         year: 2020,
                         bib: "1.bib",
@@ -348,7 +416,7 @@ const newPublicationsList = [
                             "Guangxi Li",
                             "Yongpan Sheng",
                             "Yafang Wang",
-                            "and Zenglin Xu*"],
+                            "and Zenglin Xu<sup>#</sup>"],
                         year: 2018,
                         bib: "1.bib",
                         abs: "",
@@ -360,11 +428,11 @@ const newPublicationsList = [
                     },
                     {
                         id: 2,
-                        u1: ["Han Xu*",
+                        u1: ["Han Xu<sup>#</sup>",
                             "Xiwei Qiu",
                             "Yongpan Sheng",
                             "Liang Luo",
-                            "Yanping Xiang*"
+                            "Yanping Xiang<sup>#</sup>"
                         ],
                         year: 2018,
                         bib: "1.bib",
@@ -381,7 +449,7 @@ const newPublicationsList = [
                         id: 4,
                         u1: [
                             "Yongpan Sheng",
-                            "Zenglin Xu*",
+                            "Zenglin Xu<sup>#</sup>",
                             "Yafang Wang",
                             "Xiangyu Zhang",
                             "Jia Jia",
@@ -419,7 +487,7 @@ const newPublicationsList = [
                             "Peng Zhao",
                             "Yongpan Sheng",
                             "Dezhong Yao",
-                            "and Zenglin Xu",
+                            "and Zenglin Xu<sup>#</sup>",
                         ],
                         bib: "1.bib",
                         pdf: "https://www.ijcai.org/Proceedings/2017/0368.pdf",
@@ -444,7 +512,7 @@ const newPublicationsList = [
                     {
                         id: 1,
                         u1: ["徐增林",
-                            "盛泳潘",
+                            "盛泳潘<sup>†</sup>",
                             "贺丽荣",
                             "王雅芳"
                         ],
@@ -602,6 +670,7 @@ const newPublicationsList = [
                                 </div>
                             </div>
                         </div>
+                        
                         <div v-if="data.J != []">
                             <div v-for="item in data.J">
                                 <!-- {{ item }} -->
@@ -665,6 +734,72 @@ const newPublicationsList = [
                                 </div>
                             </div>
                         </div>
+
+                        <div v-if="data.J != []">
+                            <div v-for="item in data.D">
+                                <!-- {{ item }} -->
+                                <div>
+                                    <div class="item-c" v-if="item">D{{ item.id }}</div>
+                                    <span style="margin-left: 10px">
+                                        <strong>{{ item.title }}</strong>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span :key="index" v-for="(name, index) in item.u1">
+                                        <span v-if="name.includes('盛泳潘') ||
+                                    name.includes('Yongpan Sheng')
+                                            " style="font-weight: bold; margin-right: 0px" v-html="name"></span>
+                                        <span v-else style="margin-right: 0px" v-html="name"></span>
+                                        <span v-if="item.u1.indexOf(name) < item.u1.length - 1">, </span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>{{ item.text }}</span>
+                                    <span style="color: red"><strong v-html="item.red"></strong>
+
+                                    </span>
+                                </div>
+
+                                <div style="display: flex; gap: 10px; margin: 5px 0px">
+                                    <div>
+                                        <a class="file_link" :href="item.pdf" target="_blank" style="text-decoration: none">
+                                            <icon-file-pdf />
+                                            <span>
+                                                PDF
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="file_link" :href="item.abs" target="_blank" style="text-decoration: none">
+                                            <el-icon style="width: 10px">
+                                                <Memo style="width: 10px" />
+                                            </el-icon>
+                                            <span>
+                                                Abstract
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="file_link" :href="item.bib" target="_blank" style="text-decoration: none">
+                                            <el-icon style="width: 10px">
+                                                <Notebook style="width: 10px" />
+                                            </el-icon>
+                                            <span>
+                                                BibTex
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <!-- <div class="item-c" v-if="item">J{{ item.id }}</div>
+                                    <span style="margin-left: 10px">
+                                        <strong>{{ item.title }}</strong>
+                                    </span> -->
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div v-if="data.others != []">
                             <div v-for="item in data.others">
                                 <!-- {{ item }} -->
