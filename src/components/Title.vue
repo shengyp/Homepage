@@ -6,7 +6,7 @@
                 <td width="20%">
                     <p></p>
                     <div align="center">
-                        <img src="../assets/AX2A0615.jpg" width="200" alt="Jieming SHI" />
+                        <img src="../assets/AX2A0615.jpg" width="200" alt="Yongpan Sheng" />
                     </div>
                     <p></p>
                 </td>

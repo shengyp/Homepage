@@ -131,55 +131,34 @@ const Competition = ref([{
         <ul class="competition">
             <li>
                 <div>
-                    <span style="font-weight: bold">2023级研究生</span>
+                    <span style="font-weight: bold">硕士研究生</span>
                 </div>
                 <div>
-                    <span style="font-weight: bold">熊礼竹</span>（ *1）
+                    2024级：<span style="font-weight: bold">宋宇杰</span>（ *1）
                 </div>
                 <div>
-                    <span style="font-weight: bold">王瑛楠</span>（ *1）
-                </div>
-            </li>
-            <li>
-                <div>
-                    <span style="font-weight: bold">2022级研究生</span>
+                    2023级：<span style="font-weight: bold">熊礼竹</span>（ *1），
+                            <span style="font-weight: bold">王瑛楠</span>（ *1）
                 </div>
                 <div>
-                    <span style="font-weight: bold">孙今泽</span>（ *1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">张现明</span>（ *1）
+                    2022级：<span style="font-weight: bold">孙今泽</span>（ICONIP*1），
+                            <span style="font-weight: bold">张现明</span>（ *1）
                 </div>
             </li>
             <li>
                 <div>
-                    <span style="font-weight: bold">2021级本科生</span>
+                    <span style="font-weight: bold">本科生</span>
                 </div>
                 <div>
-                    <span style="font-weight: bold">陈茜</span>（重庆数据库大赛三等奖*1）
+                  2021级：<span style="font-weight: bold">陈茜</span>（重庆数据库大赛三等奖*1），
+                        <span style="font-weight: bold">丁珠萍</span>（重庆数据库大赛三等奖*1），
+                        <span style="font-weight: bold">王一婷</span>（MCM/ICM H奖*1），
+                        <span style="font-weight: bold">姜堂蕴之</span>（MCM/ICM H奖*1，计算机设计大赛三等奖*1）
                 </div>
                 <div>
-                    <span style="font-weight: bold">丁珠萍</span>（重庆数据库大赛三等奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">王一婷</span>（MCM/ICM H奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">姜堂蕴之</span>（MCM/ICM H奖*1，计算机设计大赛三等奖*1）
-                </div>
-            </li>
-            <li>
-                <div>
-                    <span style="font-weight: bold">2020级本科生</span>
-                </div>
-                <div>
-                    <span style="font-weight: bold">汪小诗</span>（MCM/ICM H奖*1，计算机设计大赛三等奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">宋宇杰</span>（MCM/ICM H奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">刘硕</span>（MCM/ICM H奖*1）
+                    2020级：<span style="font-weight: bold">汪小诗</span>（MCM/ICM H奖*1，计算机设计大赛三等奖*1），
+                            <span style="font-weight: bold">宋宇杰</span>（MCM/ICM H奖*1），
+                            <span style="font-weight: bold">刘硕</span>（MCM/ICM H奖*1）
                 </div>
             </li>
         </ul>

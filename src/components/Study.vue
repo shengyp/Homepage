@@ -32,7 +32,7 @@
                 <a href="https://www.cuhk.edu.cn/zh-hans" target="_blank">香港中文大学 (深圳)</a>.
             </li>
             <li class="study_exp">
-                2014.08 -- 2020.08, 博士,
+                2014.09 -- 2020.08, 博士,
                 <a href="https://www.scse.uestc.edu.cn/" target="_blank">计算机科学与工程学院</a>,
                 <a href="https://www.uestc.edu.cn/" target="_blank">电子科技大学</a>, 导师:
                 <a href="https://scholar.google.com/citations?hl=en&user=gF0H9nEAAAAJ">徐增林</a>.
