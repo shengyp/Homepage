@@ -2,6 +2,12 @@
 import { computed, ref } from "vue";
 
 // 竞赛指导
+//title: "低碳效视域下的农作物知识图谱构建及应用研究（校级）",
+//date: "2023.04 -- 2024.04",
+//competition: "2023年西南大学大学生创新创业训练计划",
+//place: " 获得校级立项",
+//teacher: "盛泳潘",
+//team: "薛雅文（西大20'网工）、汪小诗（西大20'软工）、陈泫晔"-->
 const Competition = ref([{
     title: "The Stacking Model Uncovers Second- hand Sailboat Prices",
     date: "2023.03.31 -- 2023.04.04",
@@ -74,14 +80,6 @@ const Competition = ref([{
     team: "王一婷（西大21'网工）、姜堂蕴之（西大21'软工）"
 },
 {
-    title: "低碳效视域下的农作物知识图谱构建及应用研究（校级）",
-    date: "2023.04 -- 2024.04",
-    competition: "2023年西南大学大学生创新创业训练计划",
-    place: " 获得校级立项",
-    teacher: "盛泳潘",
-    team: "薛雅文（西大20'网工）、汪小诗（西大20'软工）、陈泫晔"
-},
-{
     title: "面向热点事件的新闻知识图谱自动构建与可视化分析方法研究（校级）",
     date: "2021.06 -- 2023.03",
     competition: "CQU-SRTP-20220486, 重庆大学2022年大学生创新创业训练计划项目 (SRTP)",
@@ -124,57 +122,75 @@ const Competition = ref([{
         </div>
 
         <ul class="competition">
-            <li>
+                       <!--<li>
                 <div>
-                    <span style="font-weight: bold">2023级研究生</span>
+                    <span style="font-weight: bold">硕士研究生</span>
                 </div>
                 <div>
-                    <span style="font-weight: bold">熊礼竹</span>（ *1）
+                    2024级：<span style="font-weight: bold">宋宇杰</span>（ *1）
                 </div>
                 <div>
+                    2023级：<span style="font-weight: bold">熊礼竹</span>（ *1），
                     <span style="font-weight: bold">王瑛楠</span>（ *1）
                 </div>
-            </li>
-            <li>
                 <div>
-                    <span style="font-weight: bold">2022级研究生</span>
-                </div>
-                <div>
-                    <span style="font-weight: bold">孙今泽</span>（ ICONIP*1）
-                </div>
-                <div>
+                    2022级：<span style="font-weight: bold">孙今泽</span>（ICONIP*1），
                     <span style="font-weight: bold">张现明</span>（ *1）
                 </div>
-            </li>
+            </li>-->
             <li>
                 <div>
-                    <span style="font-weight: bold">2021级本科生</span>
+                    <span style="font-weight: bold">本科生</span>
                 </div>
-                <div>
-                    <span style="font-weight: bold">陈茜</span>（重庆数据库大赛三等奖*1）
+                <div style="display: flex;">
+                    <div style="width: 100px;">
+                        2021级：
+                    </div>
+                    <div>
+                        <div style="display: flex;flex-wrap: wrap;justify-content: start;">
+                            <div>
+                                <span style="font-weight: bold">陈茜
+                                </span>（重庆数据库大赛三等奖*1），
+                            </div>
+                            <div>
+                                <span style="font-weight: bold">丁珠萍
+                                </span>
+                                （重庆数据库大赛三等奖*1），
+                            </div>
+                            <div>
+                                <span style="font-weight: bold">王一婷
+                                </span>
+                                （MCM/ICM H奖*1），
+                            </div>
+                            <div>
+                                <span style="font-weight: bold">姜堂蕴之
+                                </span>
+                                （MCM/ICM H奖*1，计算机设计大赛三等奖*1）
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div>
-                    <span style="font-weight: bold">丁珠萍</span>（重庆数据库大赛三等奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">王一婷</span>（MCM/ICM H奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">姜堂蕴之</span>（MCM/ICM H奖*1，计算机设计大赛三等奖*1）
-                </div>
-            </li>
-            <li>
-                <div>
-                    <span style="font-weight: bold">2020级本科生</span>
-                </div>
-                <div>
-                    <span style="font-weight: bold">汪小诗</span>（MCM/ICM H奖*1，计算机设计大赛三等奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">宋宇杰</span>（MCM/ICM H奖*1）
-                </div>
-                <div>
-                    <span style="font-weight: bold">刘硕</span>（MCM/ICM H奖*1）
+
+
+                <div style="display: flex;">
+                    <div style="width: 70px;">
+                        2020级：
+                    </div>
+                    <div style="display: flex;flex-wrap:wrap;">
+                        <div>
+                            <span style="font-weight: bold">汪小诗</span>
+                            （MCM/ICM H奖*1，计算机设计大赛三等奖*1），
+                        </div>
+                        <div>
+                            <span style="font-weight: bold">宋宇杰</span>
+                            （MCM/ICM H奖*1），
+                        </div>
+                        <div>
+                            <span style="font-weight: bold">刘硕</span>（MCM/ICM H奖*1）
+                        </div>
+                    </div>
+
                 </div>
             </li>
         </ul>

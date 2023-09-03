@@ -1,28 +1,47 @@
 <script setup>
 import { computed, ref } from "vue";
 
+//{
+//                        id: 13,
+//                        u1: ["Jinze Sun",
+//                            "Yongpan Sheng<sup>#‡</sup>",
+//                            "Lirong He",
+//                            "Ling Zhan",
+//                            "and Kaiwen Wei"
+//                        ],
+//                        year: 2023,
+//                        bib: "1.bib",
+//                        pdf: "",
+//                        abs: "",
+//                        title:
+//                            "Bridging the Gap between Transformer Hawkes Process //and Temporal Rule-Guided Learning for Temporal Knowledge Graph Reasoning",
+//                        text: "",
+//                        red: ""
+//                    },
+
+//{
+//                        id: 14,
+//                        u1: ["Jinze Sun",
+//                            "Yongpan Sheng<sup>#‡</sup>",
+//                            "Lirong He",
+//                            "and Ling Zhan"
+//                        ],
+//                        year: 2023,
+//                        bib: "1.bib",
+//                        pdf: "",
+//                        abs: "",
+//                        title:
+//                            "Incorporating Transformer Hawkes Process and //Temporal Logic Rules in Representation Learning for Temporal Knowledge Graph Reasoning",
+//                        text: "",
+//                        red: ""
+//                    },
+                    
 const newPublicationsList = [
     {
         year: 2023,
         data: [
             {
                 J: [
-                    {
-                        id: 14,
-                        u1: ["Jinze Sun",
-                            "Yongpan Sheng<sup>#‡</sup>",
-                            "Lirong He",
-                            "and Ling Zhan"
-                        ],
-                        year: 2023,
-                        bib: "1.bib",
-                        pdf: "",
-                        abs: "",
-                        title:
-                            "Incorporating Transformer Hawkes Process and Temporal Logic Rules in Representation Learning for Temporal Knowledge Graph Reasoning",
-                        text: "",
-                        red: ""
-                    },
                     {
                         id: 13,
                         u1: ["Yongpan Sheng",
@@ -41,23 +60,6 @@ const newPublicationsList = [
                     
                 ],
                 C: [
-                    {
-                        id: 13,
-                        u1: ["Jinze Sun",
-                            "Yongpan Sheng<sup>#‡</sup>",
-                            "Lirong He",
-                            "Ling Zhan",
-                            "and Kaiwen Wei"
-                        ],
-                        year: 2023,
-                        bib: "1.bib",
-                        pdf: "",
-                        abs: "",
-                        title:
-                            "Bridging the Gap between Transformer Hawkes Process and Temporal Rule-Guided Learning for Temporal Knowledge Graph Reasoning",
-                        text: "",
-                        red: ""
-                    },
                     {
                         id: 12,
                         u1: ["Xiaoshi Wang",
