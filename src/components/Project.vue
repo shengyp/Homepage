@@ -190,7 +190,7 @@ const projects = [
         <!-- 参与 -->
         <div>
             <h3>
-                <p class="project-text">参与</p>
+                <p class="project-text">主研/参与</p>
             </h3>
 
             <div class="project-item">

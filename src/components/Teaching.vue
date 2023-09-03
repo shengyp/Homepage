@@ -18,10 +18,10 @@
                 “<span style="font-weight: bold" class="teaching">计算机网络</span>”, 西南大学, 72课时, 主讲教师, 现场授课,
                 2022-2023学年第二学期
             </li>
-            <li class="teaching">
+            <!--<li class="teaching">
                 “<span style="font-weight: bold" class="teaching">数据库原理及应用</span>”, 西南大学, 64课时, 助教, 线上/线下相结合,
                 2022-2023学年第一学期
-            </li>
+            </li>-->
             <li class="teaching">
                 “<span style="font-weight: bold" class="teaching">大数据导论</span>”, 重庆警察学院, 54课时, 主讲教师, 线上/线下相结合,
                 2022.09.06 - 2022.12.20.
