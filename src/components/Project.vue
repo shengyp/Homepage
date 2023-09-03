@@ -243,13 +243,51 @@ const projects = [
         </div>
 
         <!-- 已结题 -->
-        <!--<div>
+        <div>
             <h3>
-                <p class="year-text">已结题</p>
+                <p class="project-text">已结题</p>
             </h3>
-        </div>-->
+
+            <div class="project-item">
+                <span class="project-item-name">省部级（含）以上科研项目</span>
+
+                <ul>
+                    <li>
+                        <div>国家重点研发计划项目：<span
+                                style="font-weight: bold">“基于公共语义模型的异构服务集成和业务协同关键技术研究（任务2，属于“川渝特大城市群服务集成与治理关键技术研究与应用示范项目”、“子课题3：大规模多源多主体城市群服务汇聚与治理技术”）”</span>，2018YFB2101203，2019.07-2023.06，已结题，盛泳潘，参加。
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>国家留学基金委，国家建设高水平大学公派研究生项目：<span
+                                style="font-weight: bold">“大规模Is-A关系识别方法研究”</span>，201706070049，2017.10-2018.10，已结题，盛泳潘，主持。
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>四川省科技厅，四川省科技创新创业苗子工程项目：<span
+                                style="font-weight: bold">“时序知识引导的知识图谱表示学习模型研究及应用”</span>，2021JDRC0067，2021.04-2022.03，已结题，盛泳潘，参加。
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
 
+            <div class="project-item">
+                <span class="project-item-name">横向项目</span>
+                <ul>
+                    <li>
+                        <div>教育部科技发展中心,中国高校产学研创新基金（阿里云高校数字化创新专项）：<span style="font-weight: bold">“基于混合云架构的教育科研算力平台研究与实践”</span>，2021ALA01005，2021.11-2022.11，已结题，盛泳潘，参加。
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>重庆市医疗保障局项目(横向软课题)：<span style="font-weight: bold">“重庆市智慧医疗保障体系与模式研究”</span>，2020.03-2020.12，已结题，盛泳潘，项目骨干。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </div>
 </template>
