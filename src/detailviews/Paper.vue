@@ -573,7 +573,7 @@ const newPublicationsList = [
 
 </script>
 <template>
-    <div style="display: flex;justify-content: center;width: 100%;background-color: rgb(216, 216, 216);">
+    <div style="justify-content: center;width: 100%;background-color: rgb(216, 216, 216);">
         <div style="width:900px;background-color: white;padding:20px 50px;">
             <p id="paper" style="margin-top: 10px">
             <div style="display: flex;justify-content:space-between;">
